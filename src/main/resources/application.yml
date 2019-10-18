@@ -1,0 +1,15 @@
+server:
+  port: 9027
+spring:
+  application:
+    name: redis-batch-server
+  redis:
+    host: xxxxx
+    port: 6379
+    password: xxxxx
+    timeout: 10000
+
+
+logging:
+  config: classpath:logback-spring.xml
+  level: debug
